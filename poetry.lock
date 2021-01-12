@@ -1,0 +1,21 @@
+[[package]]
+name = "starlette"
+version = "0.14.1"
+description = "The little ASGI library that shines."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.extras]
+full = ["aiofiles", "graphene", "itsdangerous", "jinja2", "python-multipart", "pyyaml", "requests"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.7"
+content-hash = "8ed5769236c1f3f5c897bbc3bbbc02e00f306ba8c18f4ab7fd798fc0065aa450"
+
+[metadata.files]
+starlette = [
+    {file = "starlette-0.14.1-py3-none-any.whl", hash = "sha256:d2f55fb835378442b812637ed3e3fcef3d3e22d292fcb8400fa48d2473202411"},
+    {file = "starlette-0.14.1.tar.gz", hash = "sha256:5268ef5d4904ec69582d5fd207b869a5aa0cd59529848ba4cf429b06e3ced99a"},
+]
