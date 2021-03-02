@@ -100,9 +100,8 @@ class _RequestLoggingResponder:
         try:
             request_body = self._request_body and json.loads(self._request_body)
             response_body = self._response_body and json.loads(self._response_body)
-            self._logger.info(
-                f"request: {self._method} {self._path} {request_body or ''} ->\
-                {self._response_status_code} {response_body or ''}"
+            self._logger.debug(
+                f"request: {self._method} {self._path} {request_body or ''} -> {self._response_status_code} {response_body or ''}"
             )
         except Exception:
             pass
